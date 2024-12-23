@@ -22,6 +22,7 @@ if($result) {
         <td><?php echo $row['name']; ?> </td>
         <td><?php echo $row['email']; ?> </td>
         <td><?php echo $row['age']; ?> </td>
+        <td><a href="update.php?id=<?php echo $row['id']; ?>">Update</a></td>
         </tr>
     <?php
     }
